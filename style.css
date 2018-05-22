@@ -1,0 +1,39 @@
+body {
+    background-color: #919190;
+    font-family: Impact;
+    color: #FCF3CA;
+}
+.key-wrapper {
+    text-align: center;
+    margin: 40vh auto;
+}
+.key {
+    background-color: #EF7B7B;
+    border: #42291C;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 16px 8px 2px 8px;
+    margin:3px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    transition: all 0.07s;
+}
+.audio {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.letter {
+    font-family: Impact;
+    font-weight: 400;
+}
+.playing {
+    transform: scale(1.1);
+    border-color: #C4EADA;
+    box-shadow: 0 0 10px 0 #C4EADA;
+}
