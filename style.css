@@ -21,7 +21,7 @@ body {
     height: 70px;
     width: 70px;
     display: inline-block;
-    transition: all 0.07s;
+    transition: all .07s ease;
 }
 .audio {
     text-align: center;

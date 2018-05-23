@@ -54,5 +54,25 @@
         <audio data-key="75" src="drum-sounds/clap.wav" type="audio/wav"></audio>
         <audio data-key="76" src="drum-sounds/tink.wav" type="audio/wav"></audio>
 
+        <script>
+        function playAudio(event) {
+            const audio = document.querySelector(`audio[data-key="${event.keyCode}"]`);
+            const key = document.querySelector(`div[data-key="${event.keyCode}"]`);
+            if(!audio) return;
+            audio.currentTime = 0;
+            audio.play();
+            key.classList.add('playing');
+        }
+
+        function removeTransition(event) {
+            if (event.propertyName !== 'transform') {
+                return;
+            }
+            this.classList.remove('playing'); 
+        }
+        window.addEventListener('keydown', playAudio);
+        var keys = document.querySelectorAll('.key');
+        keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+        </script>
     </body>
 </html>
