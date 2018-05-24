@@ -1,39 +1,39 @@
 body {
-    background-color: #919190;
-    font-family: Impact;
-    color: #FCF3CA;
+  background-color: #919190;
+  font-family: Impact;
+  color: #fcf3ca;
 }
 .key-wrapper {
-    text-align: center;
-    margin: 40vh auto;
+  text-align: center;
+  margin: 40vh auto;
 }
 .key {
-    background-color: #EF7B7B;
-    border: #42291C;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 5px;
-    padding: 16px 8px 2px 8px;
-    margin:3px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 40px;
-    height: 70px;
-    width: 70px;
-    display: inline-block;
-    transition: all .07s ease;
+  background-color: #ef7b7b;
+  border: #42291c;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 16px 8px 2px 8px;
+  margin: 3px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+  transition: all 0.07s ease;
 }
 .audio {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
 .letter {
-    font-family: Impact;
-    font-weight: 400;
+  font-family: Impact;
+  font-weight: 400;
 }
 .playing {
-    transform: scale(1.1);
-    border-color: #C4EADA;
-    box-shadow: 0 0 10px 0 #C4EADA;
+  transform: scale(1.1);
+  border-color: #c4eada;
+  box-shadow: 0 0 10px 0 #c4eada;
 }
